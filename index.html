@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Anim.css is an free animation library. A cross-browser animation library can used in your projects. Animate in homepages, sliders, seekers.">
+    <meta name="keywords" content="css, animation, library, free, anim.css, css animation library">
+    <link rel="apple-touch-icon" sizes="180x180" href="./dist/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./dist/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./dist/images/favicon-16x16.png">
+
+    <title>Anim.css</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ramkumarm15/bootstarp-modified@main/dist/css/app.min.css">
+    <link rel="stylesheet" href="./dist/css/anim.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1.anim {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--bs-yellow);
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="d-flex align-items-center min-vh-100 py-3">
+        <div class="container">
+            <div class="justify-content-center row">
+                <div class="col-md-12 text-center">
+                    <h1 class="anim" id="animObj">Anim.css</h1>
+                </div>
+                <div class="col-md-5 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <select class="form-select" name="animation_select" id="animation_select">
+                                    <option selected>Select Animation</option>
+                                    <optgroup label="Seekers">
+                                        <option value="pulse">pulse</option>
+                                        <option value="flash">flash</option>
+                                        <option value="rubberBand">RubberBand</option>
+                                        <option value="oscillate_x">Oscillate X</option>
+                                        <option value="oscillate_y">Oscillate Y</option>
+                                        <option value="shake_x">Shake X</option>
+                                        <option value="shake_y">Shake Y</option>
+                                    </optgroup>
+                                    <optgroup label="FadeIn">
+                                        <option value="fadeIn">Fade In</option>
+                                        <option value="fadeInTop">Fade In Top</option>
+                                        <option value="fadeInBottom">Fade In Bottom</option>
+                                        <option value="fadeInLeft">Fade In Left</option>
+                                        <option value="fadeInRight">Fade In Right</option>
+                                    </optgroup>
+                                    <optgroup label="FadeOut">
+                                        <option value="fadeOut">Fade Out</option>
+                                        <option value="fadeOutTop">Fade Out Top</option>
+                                        <option value="fadeOutBottom">Fade Out Bottom</option>
+                                        <option value="fadeOutLeft">Fade Out Left</option>
+                                        <option value="fadeOutRight">Fade Out Right</option>
+                                    </optgroup>
+                                    <optgroup label="RotateIn">
+                                        <option value="rotateIn">RotateIn</option>
+                                        <option value="rotateInUpLeft">RotateInUpLeft</option>
+                                        <option value="rotateInUpRight">RotateInUpRight</option>
+                                        <option value="rotateInDownLeft">RotateInDownLeft</option>
+                                        <option value="rotateInDownRight">RotateInDownRight</option>
+                                    </optgroup>
+                                </select>
+
+                            </form>
+                            <div class="text-center mt-3">
+                                <a href="./dist/css/anim.min.css" download="anim.min.css">Download Anim.css</a>
+                                <span>|</span>
+                                <a href="https://github.com/ramkumarm15/anim.css" target="_blank">View on Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./dist/js/app.min.js"></script>
+</body>
+
+</html>
